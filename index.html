@@ -16,17 +16,24 @@
         <section class="card__body">
           <form action="">
             <section class="form__input">
-              <label for="">Messaje</label>
-              <input type="text" placeholder="Please write the message" />
+              <input
+                type="text"
+                placeholder="Please write the message"
+                id="message-el"
+              />
             </section>
-            <button type="submit" class="card__body__btn">Submit</button>
+            <button type="submit" class="card__body__btn" id="button-el">
+              Submit
+            </button>
           </form>
 
           <section class="card__message">
-            <p class="card__message--display"></p>
+            <p class="card__message--display" id="display-el"></p>
           </section>
         </section>
       </article>
     </main>
+
+    <script src="./index.js"></script>
   </body>
 </html>

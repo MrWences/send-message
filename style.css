@@ -72,3 +72,13 @@ main {
   font-size: 0.8rem;
   color: rgb(63, 63, 63);
 }
+
+@media screen and (min-width: 768px) {
+  .card {
+    min-width: 50%;
+  }
+
+  .form__input input {
+    padding: 0.8rem 0.6rem;
+  }
+}
